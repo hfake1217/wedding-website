@@ -4,3 +4,21 @@ body {
     background-attachment: fixed;
     background-size: cover;
   }
+
+  h1 {
+    font-family: 'Seaweed Script', cursive;
+    font-size: 100px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(255, 192, 203, 0.152);
+    text-align: center;
+  }
+
+  p {
+    font-family: 'Playfair Display', serif;
+    font-size: larger;
+    text-align: center;
+  }
+
+  div {
+    margin: 40px auto;
+  }
