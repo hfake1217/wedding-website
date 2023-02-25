@@ -22,3 +22,26 @@ body {
   div {
     margin: 40px auto;
   }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-item {
+    display: inline-block;
+    list-style: none;
+    padding: 0 14px;
+    font-family: 'Poiret One', cursive;
+    font-weight: 600;
+    letter-spacing: 2px;
+  }
+
+  .nav-item-highlight, a {
+    border-bottom: 2px solid transparent;
+    padding: 8px 8px 6px;
+  }
+
+  .nav-item-highlight:hover, a:active {
+    border-bottom: 2px solid white;
+  }
