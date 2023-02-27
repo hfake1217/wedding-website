@@ -1,6 +1,6 @@
 body {
     background-image: url("images/palm-background.webp");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
   }
@@ -19,10 +19,12 @@ body {
     text-align: center;
   }
 
-  div {
+  .heading {
     margin: 40px auto;
   }
 
+
+  /* NAVBAR */
   .navbar {
     display: flex;
     justify-content: center;
@@ -37,6 +39,11 @@ body {
     letter-spacing: 2px;
   }
 
+  a {
+    color:rgba(13, 62, 88, 0.885);
+    text-decoration: none;
+  }
+
   .nav-item-highlight, a {
     border-bottom: 2px solid transparent;
     padding: 8px 8px 6px;
@@ -44,4 +51,61 @@ body {
 
   .nav-item-highlight:hover, a:active {
     border-bottom: 2px solid white;
+  }
+
+  /* MAIN CONTENT */
+  .main-content {
+    background:rgba(253, 253, 253, 0.586);
+    display: block;
+    margin: 52px 40px 20px;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .date-and-place {
+    margin: 52px auto 20px;
+    justify-content: center;
+    display: flex;
+  }
+
+  .big-date {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left:auto;
+    width: 50%;
+    text-align: right;
+    padding: 20px 72px 20px 0;
+    color:rgba(13, 62, 88, 0.885);
+    border-right: 1px solid #58595B;
+  }
+
+  .big-place {
+    margin-top: 40px;
+    margin-right: auto;
+    margin-left:auto;
+    width: 50%;
+    padding: 20px 0 20px 72px;
+    color:rgba(13, 62, 88, 0.885);
+  }
+
+  h2 {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .rsvp-div {
+    display: flex;
+  }
+
+  .rsvp-link {
+    justify-content: center;
+    text-decoration: none;
+    padding: 0.75rem 1.25rem;
+    margin: 0 auto;
+    border-radius: 2px;
+    background-color: rgba(13, 62, 88, 0.885);
+    color:rgba(253, 253, 253, 0.586);
+    font-family: 'Poiret One', cursive;
+    letter-spacing: 2px;
+    font-weight: 600;
+    display: block;
   }
