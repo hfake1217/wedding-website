@@ -13,7 +13,7 @@ body {
     text-align: center;
   }
 
-  p {
+  .heading-paragraph {
     font-family: 'Playfair Display', serif;
     font-size: larger;
     text-align: center;
@@ -116,3 +116,57 @@ body {
     justify-content: center;
     display: flex;
   }
+
+  /* EVENT INFO */
+  .event-info {
+    margin: 40px 0;
+    font-family: 'Poiret One', cursive;
+  }
+
+  .event-info h4 {
+    letter-spacing: 2px;
+    margin: 12px 0;
+  }
+
+  .ceremony-paragraphs, .reception-paragraphs {
+    font-family: 'Poiret One', cursive;
+    margin: 12px 0;
+  }
+
+.ceremony-info {
+  border-bottom: 1px solid rgba(88,89,91,15%);
+  display: flex;
+  justify-content: center;
+}
+
+.ceremony-time {
+  display: block;
+  text-align: end;
+  padding: 32px 16px;
+}
+
+.ceremony-location {
+  padding: 32px 16px;
+  text-align: left;
+}
+
+.event-paragraph {
+  margin: 2px 0;
+}
+
+.reception-info {
+  border-bottom: 1px solid rgba(88,89,91,15%);
+  display: flex;
+  justify-content: center;
+}
+
+.reception-time {
+  display: block;
+  text-align: end;
+  padding: 32px 16px;
+}
+
+.reception-location {
+  padding: 32px 16px;
+  text-align: left;
+}
