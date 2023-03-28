@@ -126,10 +126,13 @@ body {
   .event-info h4 {
     letter-spacing: 2px;
     margin: 12px 0;
+    font-size: larger;
   }
 
   .ceremony-paragraphs, .reception-paragraphs {
     font-family: 'Poiret One', cursive;
+    letter-spacing: 2px;
+    font-weight: 500;
     margin: 12px 0;
   }
 
