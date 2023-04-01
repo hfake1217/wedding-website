@@ -63,10 +63,11 @@ body {
     justify-content: center;
   }
 
-  .date-and-place {
+  .date-and-place, .things-heading {
     margin: 52px auto 20px;
     justify-content: center;
     display: flex;
+    color:rgba(13, 62, 88, 0.885);
   }
 
   .big-date {
@@ -76,7 +77,6 @@ body {
     width: 50%;
     text-align: right;
     padding: 20px 72px 20px 0;
-    color:rgba(13, 62, 88, 0.885);
     border-right: 1px solid #58595B;
   }
 
@@ -86,7 +86,6 @@ body {
     margin-left:auto;
     width: 50%;
     padding: 20px 0 20px 72px;
-    color:rgba(13, 62, 88, 0.885);
   }
 
   h2 {
@@ -118,18 +117,18 @@ body {
   }
 
   /* EVENT INFO */
-  .event-info {
+  .event-info, .item>h4 {
     margin: 40px 0;
     font-family: 'Poiret One', cursive;
   }
 
-  .event-info h4 {
+  .event-info h4, .item>h4 {
     letter-spacing: 2px;
     margin: 12px 0;
     font-size: larger;
   }
 
-  .ceremony-paragraphs, .reception-paragraphs {
+  .ceremony-paragraphs, .reception-paragraphs, .item-paragraph {
     font-family: 'Poiret One', cursive;
     letter-spacing: 2px;
     font-weight: 500;
@@ -153,7 +152,7 @@ body {
   text-align: left;
 }
 
-.event-paragraph {
+.event-paragraph, .item-paragraph {
   margin: 2px 0;
 }
 
@@ -172,4 +171,26 @@ body {
 .reception-location {
   padding: 32px 16px;
   text-align: left;
+}
+
+/* THINGS TO DO */
+.image-container {
+  width: 400px;
+  height: 300px;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.things-list {
+  display: block;
+  text-align: center;
+}
+
+.item {
+  justify-content: center;
+  display: 
 }
