@@ -49,7 +49,7 @@ body {
     padding: 8px 8px 6px;
   }
 
-  .nav-item-highlight:hover, a:active {
+  .nav-item-highlight:hover, .nav-item-highlight:active, .active-nav {
     border-bottom: 2px solid white;
   }
 
@@ -92,11 +92,11 @@ body {
     font-family: 'Playfair Display', serif;
   }
 
-  .rsvp-div {
+  .rsvp-div, .item-div {
     display: flex;
   }
 
-  .rsvp-link {
+  .rsvp-link, .item-button {
     justify-content: center;
     text-decoration: none;
     padding: 0.75rem 1.25rem;
@@ -108,6 +108,10 @@ body {
     letter-spacing: 2px;
     font-weight: 600;
     display: block;
+  }
+
+  .rsvp-link:hover, .item-button:hover {
+    opacity: 0.9;
   }
 
   .h-and-c {
@@ -192,5 +196,9 @@ body {
 
 .item {
   justify-content: center;
-  display: 
+  margin-top: 50px;
+}
+
+.item-paragraph {
+  margin: 4px;
 }
