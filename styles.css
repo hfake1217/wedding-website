@@ -202,3 +202,10 @@ body {
 .item-paragraph {
   margin: 4px;
 }
+
+
+/* WEDDING PARTY */
+.member-pic > img {
+  height: 150px;
+  width: 150px;
+}
